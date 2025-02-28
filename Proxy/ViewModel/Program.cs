@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using DotNetDesignPatternDemos.Annotations;
 using JetBrains.Annotations;
 
 namespace DotNetDesignPatternDemos.Structural.Proxy
@@ -79,6 +78,13 @@ namespace DotNetDesignPatternDemos.Structural.Proxy
         {
             PropertyChanged?.Invoke(this,
               new PropertyChangedEventArgs(propertyName));
+        }
+    }
+
+    class Program
+    {
+        public static void Main(string[] args)
+        {
         }
     }
 }

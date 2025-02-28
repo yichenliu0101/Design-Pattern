@@ -66,4 +66,11 @@ namespace DotNetDesignPatternDemos.Structural.Proxy.Composite
         }
 
     }
+
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+        }
+    }
 }
